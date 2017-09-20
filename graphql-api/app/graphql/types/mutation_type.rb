@@ -8,4 +8,13 @@ Types::MutationType = GraphQL::ObjectType.define do
       "Hello World!"
     }
   end
+
+
+  field :createUser, Types::UserType do
+    description "Create a new User"
+    resolve ->(_, args, ctx) {
+      User.new
+    }
+  end
+
 end

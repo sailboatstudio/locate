@@ -4,7 +4,6 @@
 ### DB
 
 - users
-
   - firstName
   - lastName
   - username
@@ -16,7 +15,7 @@
 
 
 - checkins
-  - id
+  <!-- - id
   - createdAt
   - updatedAt
   - locationName
@@ -26,8 +25,8 @@
   - streetAddressTwo
   - streetAddressThree
   - city
-  - province
-  - postalCode
-  - country
-  - isActive (bool)
-  - user *User
+  - province -->
+  - postalCode () => whoops, forgot
+  <!-- - country
+  - isActive (bool) -->
+  - user *User () => whoops, forgot
